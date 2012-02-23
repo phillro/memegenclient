@@ -1,0 +1,16 @@
+Example Usage:
+
+    MemeGenClient = require('memeGenClient.js');
+    var serverOptions = {
+        username:'username',
+        password:'password'
+    };
+
+
+    var memeGenClient = new MemeGenClient(serverOptions);
+
+    memeGenClient.instancesSelectByPopular({})
+        .on('data', function (data) {
+            console.log(data);
+        })
+        .exec()
