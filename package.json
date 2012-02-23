@@ -1,0 +1,18 @@
+{
+    "author": "Phillip Rosen <phill.rosen@gmail.com>",
+    "name": "memegenclient",
+    "description": "A client for Memegenerator http://www.memegenerator.net/",
+    "version": "0.1.9",
+    "repository": {
+        "url": ""
+    },
+    "main": "./index.js",
+    "engines": {
+        "node": ">= 0.3.0"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+    }
+}
