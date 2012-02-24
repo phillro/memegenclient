@@ -1,3 +1,5 @@
+This is a node.js client for the http://memegenerator.net/ API.
+
 Example Usage:
 
     MemeGenClient = require('memeGenClient.js');
